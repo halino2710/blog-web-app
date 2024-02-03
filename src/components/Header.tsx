@@ -21,9 +21,9 @@ function Header() {
         type="text"
         placeholder="Search"
         rightIcon={AiOutlineSearch}
-        className="hidden lg:inline"
+        className="hidden sm:inline"
       />
-      <Button color="gray" className="w-12 h-10inline lg:hidden" pill>
+      <Button color="gray" className="w-12 h-10inline sm:hidden" pill>
         <AiOutlineSearch />
       </Button>
 
@@ -33,7 +33,7 @@ function Header() {
         </Button>
 
         <Link to={"/login"}>
-          <Button className="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm h-10 text-center">
+          <Button outline className="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm h-10 text-center">
             Sign in
           </Button>
         </Link>
